@@ -1,6 +1,6 @@
 package java;
 
-public class VariableScopeExam {
+public class VariableScopeExam1 {
     int globalScope = 10;          // 인스턴스 변수
     static int staticVal = 7;      // 클래스 변수
 
@@ -14,8 +14,8 @@ public class VariableScopeExam {
 //        System.out.println(globalScope);   // 오류
 
 
-        VariableScopeExam v1 = new VariableScopeExam();
-        VariableScopeExam v2 = new VariableScopeExam();
+        VariableScopeExam1 v1 = new VariableScopeExam1();
+        VariableScopeExam1 v2 = new VariableScopeExam1();
         v1.globalScope = 20;
         v2.globalScope = 30;
 
