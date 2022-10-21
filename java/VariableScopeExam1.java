@@ -4,8 +4,9 @@ public class VariableScopeExam1 {
     int globalScope = 10;          // 인스턴스 변수
     static int staticVal = 7;      // 클래스 변수
 
-    public void scopeTest(int value) {
-        int localScope = 20;        //지역변수 (괄호 value 매개변수)
+    public int scopeTest(int value) {
+        int localScope = value;        //지역변수 (괄호 value 매개변수)
+        return localScope;
     }
 
 
@@ -27,5 +28,7 @@ public class VariableScopeExam1 {
 
         System.out.println(v1.staticVal);  //20 이 출력된다.
         System.out.println(v2.staticVal);  //20 이 출력된다.
+
+        System.out.println(v1.scopeTest(111));
     }
 }
