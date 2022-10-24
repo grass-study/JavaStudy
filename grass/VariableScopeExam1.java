@@ -1,4 +1,4 @@
-package java;
+package grass;
 
 public class VariableScopeExam1 {
     int globalScope = 10;          // 인스턴스 변수

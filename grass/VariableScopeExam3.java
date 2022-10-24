@@ -1,4 +1,4 @@
-package java;
+package grass;
 
 public class VariableScopeExam3 {
 
