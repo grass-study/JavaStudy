@@ -1,4 +1,6 @@
-package grass;
+package grass.test4;
+
+
 
 public class VariableScopeExam4 {
 
@@ -15,6 +17,15 @@ public class VariableScopeExam4 {
         }
 
 
+
+        public class PPPP {
+
+            int x;
+            int y;
+
+        }
+
+//
 //        //위 plus와 동일한 이름 에러 발생
 //        public int plus(int a, int b) {
 //            return a+b;
@@ -24,9 +35,13 @@ public class VariableScopeExam4 {
 
             VariableScopeExam4 V = new VariableScopeExam4();
 
+
+
+
             System.out.println(V.plus(1,2));
             System.out.println(V.plus(1,2,3));
             System.out.println(V.plus("Po","wer"));
+            System.out.println();
 
 
         }

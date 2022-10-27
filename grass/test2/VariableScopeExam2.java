@@ -1,4 +1,4 @@
-package grass;
+package grass.test2;
 
 public class VariableScopeExam2 {
 
